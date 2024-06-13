@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Tab from "./Components/Tab";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <div>
+      <Tab />
+    </div>
+  );
+};
 
-export default App
+export default App;
